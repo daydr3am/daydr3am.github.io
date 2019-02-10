@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a9890a-3338-43e1-9f57-1dea9eae8de8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,16 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -48,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -112,12 +112,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549832243589</updated>
-      <workItem from="1549832244801" duration="6606000" />
+      <workItem from="1549832244801" duration="7305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6606000" />
+    <option name="totallyTimeSpent" value="7305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="30" width="1865" height="1050" extended-state="6" />
@@ -149,17 +149,17 @@
     <entry file="file://$PROJECT_DIR$/instascan.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -2,12 +2,14 @@
 <html>
 <head>
     <title>Instascan</title>
+    <meta charset="utf-8"/>
     <script type="text/javascript" src="instascan.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div>
 <video id="preview"></video>
+    <p id="content" style="font-size: 25pt; color: white;"></p>
 <script type="text/javascript">
     let scanner = new Instascan.Scanner({mirror: false, continuous: true, refractoryPeriod: 10, video: document.getElementById('preview') });
     let found = false;
@@ -23,10 +25,12 @@
             document.body.style.backgroundColor = "green";
         }else{
             document.body.style.backgroundColor = "red";
+            document.getElementById("content").innerText = "";
         }
     }, 1);
     scanner.addListener('scan', function (content) {
         console.log(content);
+        document.getElementById("content").innerText = content;
         document.body.style.backgroundColor = "green";
         found = true;
         found2 = true;
