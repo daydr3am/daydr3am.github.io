@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instascan</title>
+    <script type="text/javascript" src="instascan.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+<video id="preview"></video>
+<script type="text/javascript">
+    let scanner = new Instascan.Scanner({mirror: false, continuous: true, refractoryPeriod: 10, video: document.getElementById('preview') });
+    let found = false;
+    let found2 = false;
+    setInterval(function(){
+        if(!found){
+            found2 = false;
+        }
+        found = false;
+    },1000);
+    setInterval(function () {
+        if(found || found2){
+            document.body.style.backgroundColor = "green";
+        }else{
+            document.body.style.backgroundColor = "red";
+        }
+    }, 1);
+    scanner.addListener('scan', function (content) {
+        console.log(content);
+        document.body.style.backgroundColor = "green";
+        found = true;
+        found2 = true;
+    });
+    Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+            scanner.start(cameras[0]);
+        } else {
+            console.error('No cameras found.');
+        }
+    }).catch(function (e) {
+        console.error(e);
+    });
+</script>
+</div>
+</body>
+</html>
